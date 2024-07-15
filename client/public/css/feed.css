@@ -21,7 +21,7 @@ main {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	left: 0px;
   bottom: 0px;
 	width: 100%;
@@ -49,8 +49,13 @@ a {
 }
 
 #newsfeed {
-	max-width: 600px;
-	min-width: 600px;
+	max-width: 300px;
+	min-width: 300px;
+}
+
+#feedPhoto {
+	max-width: 200px;
+	max-height: 200px;
 }
 
 .feedImage {
